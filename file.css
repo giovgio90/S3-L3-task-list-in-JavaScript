@@ -1,0 +1,42 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-image: url(immagineSpesa.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  padding-block: 20px;
+  padding-left: 40px;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-style: italic;
+  padding-left: 35px;
+}
+
+#addButton {
+  border-radius: 5px;
+  padding-block: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#taskInput {
+  border-radius: 5px;
+  padding-block: 5px;
+  padding-inline: 5px;
+}
+
+.delete {
+  margin-left: 8px;
+  border-radius: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+li {
+  list-style-type: none;
+  padding-left: 25px;
+}
+
+.completed {
+  text-decoration: line-through red;
+}
